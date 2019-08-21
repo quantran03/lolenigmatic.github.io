@@ -16,37 +16,63 @@
 
         <div class="container-fluid">
 
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+            <div class="jumbotron-fluid" id="main-jumbotron">
+                
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 
-                <a class="navbar-brand" href="#">
-                    <img src="assets/logo-cropped.png" alt="Logo" style="width:100px;">
-                </a>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/logo-cropped.png" alt="Logo" style="width:100px;">
+                    </a>
 
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
 
-            </nav>
+                </nav>
 
-            <div class="jumbotron jumbotron-fluid vertical-center" id="main-jumbotron">
-
-                <div class="container">
-
-                    <div id="animate1" data-aos="fade-up" data-aos-once="true" data-aos-duration="500"> <h1 class="display-3 text-white">Amateur Team Dota League SEA</h1></div>
-                    <div id="animate2" data-aos="fade-up" data-aos-once="true" data-aos-delay="100" data-aos-duration="500"> <p class="text-white">Experience competitiveness beyond your pubs.</p> </div>
-
+                <div class="container vertical-center">
+                    
+                    <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500"> <h1 class="display-3 text-white text-center">ATDL SEA</h1> </div>
+                    <div data-aos="fade-up" data-aos-once="true" data-aos-delay="100" data-aos-duration="500"> <p class="text-white text-center">Experience competitiveness beyond your pubs.</p> </div>
+                    <div data-aos="fade-up" data-aos-once="true" data-aos-delay="200" data-aos-duration="500"><button type="button" class="btn btn-outline-light text-white">Learn more</button> </div>
+                    <!-- Button interaction when hover is weird (text) --> 
                 </div>
 
             </div>
-            
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-4 card-center">
+                        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500">
+                            <img src="assets/dota.jpg" class="mx-auto d-block icon-img">
+                            <h1 class="text-center">Dota Tournaments</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 card-center">
+                        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500" data-aos-delay="100">
+                            <img src="assets/trophy.png" class="mx-auto d-block icon-img">
+                            <h1 class="text-center">Inhouse-league</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 card-center">
+                        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500" data-aos-delay="200">
+                            <img src="assets/staff.png" class="mx-auto d-block icon-img">
+                            <h1 class="text-center">Dedicated Staff</h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>

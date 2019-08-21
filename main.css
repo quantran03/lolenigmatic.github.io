@@ -1,16 +1,31 @@
+
 #main-jumbotron {
     background-image: url("assets/bg.png");
     background-size: cover;
     background-attachment: fixed;
-    min-height: 1000px;
+    min-height: 100%;
 }
+
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
 
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.card-center{
+  min-height: 25%;
+  min-height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
 i {
   border: solid black;
   border-width: 0 3px 3px 0;
@@ -21,4 +36,20 @@ i {
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+}
+.container-fluid { 
+  padding: 0px;
+}
+
+.bg-dark {
+    background-color: transparent !important;
+}
+
+.btn-outline-light:hover{
+    opacity: 0.5;
+}
+
+.icon-img{
+  height: 100px;
+  width: 100px;
 }
